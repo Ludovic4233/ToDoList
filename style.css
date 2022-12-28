@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.toDoList{
+    border: 1px solid black;
+    width: 20vw;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+}
+
+li{
+    line-height: 2.5;
+    color: white;
+}
+
+.rmv{
+    background-color: red;
+    color:white;
+    margin: 2px;
+}
+
+.vld{
+    margin: 2px;
+}
