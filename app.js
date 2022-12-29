@@ -11,7 +11,18 @@ add.addEventListener('click', function(){
     validate.classList.add('vld');
 
     remove.innerHTML = "×";
+    remove.style.fontSize = "40px";
+    remove.style.marginLeft = "40px";
+    remove.style.paddingLeft = "10px";
+    remove.style.paddingRight = "10px";
+
     validate.innerHTML = "v";
+    validate.style.fontSize = "40px";
+    validate.style.marginLeft = "40px";
+    validate.style.paddingLeft = "10px";
+    validate.style.paddingRight = "10px";
+
+
     list.appendChild(li);
 
     
